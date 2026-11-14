@@ -34,3 +34,51 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+/* NAVIGATION MENU */
+
+nav {
+    background-color: #17365d;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4c542;
+}
+
+/* FORM ELEMENTS */
+
+input, textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24527a;
+}
+

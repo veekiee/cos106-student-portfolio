@@ -109,4 +109,68 @@ button:hover {
     }
 
 }
+/* MAIN CONTENT */
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+a {
+    color: #17365d;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d49b00;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #17365d;
+    color: white;
+}
+
+/* VIDEO */
+video {
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+/* PROJECT LINKS */
+section a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #e8eef5;
+}
 

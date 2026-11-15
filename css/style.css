@@ -183,15 +183,6 @@ section a {
     margin: 20px auto;
     border: 4px solid #17365d;
 }
-.project-image {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    object-fit: contain;
-    margin: 15px auto;
-    border-radius: 8px;
-}
 
 
 
